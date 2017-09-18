@@ -1,5 +1,3 @@
-package com.siftscience.game;
-
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -13,7 +11,7 @@ public class Set {
    private Card c2;
    private Card c3;
 
-   public Set(int id,Card c1, Card c2, Card c3) {
+   public Set(int id, Card c1, Card c2, Card c3) {
       this.id = id;
       this.c1 = c1;
       this.c2 = c2;

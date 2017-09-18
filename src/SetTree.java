@@ -1,8 +1,6 @@
-package com.siftscience.game;
-
-import java.util.List;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Created by pinnapareddy on 9/17/17.
