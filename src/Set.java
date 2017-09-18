@@ -18,20 +18,11 @@ public class Set {
       this.c3 = c3;
    }
 
-   public int getId(){
+   public int getId() {
       return this.id;
    }
 
-   private static List<Integer> getCardIdsInSet(Set set) {
-      List<Integer> cardIds = new ArrayList<Integer>();
-      cardIds.add(set.c1.getId());
-      cardIds.add(set.c2.getId());
-      cardIds.add(set.c3.getId());
-
-      return cardIds;
-   }
-
-   public void printSet(){
+   public void printSet() {
       System.out.println(this.c1.getCard());
       System.out.println(this.c2.getCard());
       System.out.println(this.c3.getCard());
@@ -60,5 +51,20 @@ public class Set {
       }
 
       return true;
+   }
+
+   /**
+    * Helper function to return card id's from a set.
+    *
+    * @param set
+    * @return
+    */
+   private List<Integer> getCardIdsInSet(Set set) {
+      List<Integer> cardIds = new ArrayList<Integer>();
+      cardIds.add(set.c1.getId());
+      cardIds.add(set.c2.getId());
+      cardIds.add(set.c3.getId());
+
+      return cardIds;
    }
 }
